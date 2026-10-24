@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@better-auth/infra": "^0.4.22",
+    "@libsql/kysely-libsql": "^0.4.1",
+    "better-auth": "^1.7.12",
     "jose": "^6.2.13",
     "next": "16.4.3",
     "react": "19.3.0",
@@ -17,6 +20,8 @@
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "tailwindcss": "^4"
